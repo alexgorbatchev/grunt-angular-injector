@@ -1,6 +1,6 @@
 {
   "name": "grunt-angular-injector",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "This module is meant to solve an annoying problem of minification and dependency injection in Angular.js.",
   "keywords": [
     "angular",
@@ -26,7 +26,7 @@
     "pretest": "coffee --bare --output ./tasks --compile ./src/*.coffee && rm -fr test/actual && grunt angular-injector"
   },
   "dependencies": {
-    "angular-injector": "^0.5.3"
+    "angular-injector": "^0.6.0"
   },
   "devDependencies": {
     "grunt": "^0.4.4",
