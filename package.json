@@ -26,7 +26,7 @@
     "pretest": "coffee --bare --output ./tasks --compile ./src/*.coffee && rm -fr test/actual && grunt angular-injector"
   },
   "dependencies": {
-    "angular-injector": "^0.5.3"
+    "angular-injector": "^1.0.0"
   },
   "devDependencies": {
     "grunt": "^0.4.4",
